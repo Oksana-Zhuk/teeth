@@ -1,0 +1,16 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "main": "index.html",
+  "homepage": "https://Oksana-Zhuk.github.io/Save_teeth",
+  "scripts": {
+    "deploy": "gh-pages -d myProject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

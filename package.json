@@ -1,0 +1,14 @@
+{
+  "name": "teeth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "c:\\Users\\Admin\\Desktop\\123\\teeth\\index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
