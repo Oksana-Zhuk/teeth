@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang=ru>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+
+    <title>Save your teeth</title>
+
+</head>
+
+<body>
+
+    <div id="content" class="content"></div>
+
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  
+    <script src="bulletObject.js"></script>
+    <script src="tubeObject.js"></script>
+    <script src="foodObject.js"></script>
+    <script src="weaponObject.js"></script>
+
+    <script src="teethView.js"></script>
+    <script src="teethModel.js"></script>
+    <script src="teethController.js"></script>
+  
+    <script defer src="init-firebase.js"></script>
+    <script defer src="firebaseDB.js"></script>
+
+    <script>
+        
+        let loaded;
+        let result;
+        let backgroundLoaded=0;
+        const myGameView = new TeethView();
+        const myGameController = new TeethController();
+        const myGameModel = new TeethModel();
+        myGameModel.preloadMyImages();
+
+
+    </script>
+
+    <script src="teethSPA.js"></script>
+
+</body>
+
+</html>
